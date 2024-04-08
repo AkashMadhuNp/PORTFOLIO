@@ -1,0 +1,248 @@
+
+
+
+body{
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+margin: 0;
+
+
+}
+
+.header{
+    
+    background-color: #8EC5FC;
+    display: flex;
+}
+.logo h1{
+    font-family: "Sofia", sans-serif;
+    color: aliceblue;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+
+.image{
+    margin-top: 20px
+}
+
+
+.font h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 68px;
+}
+
+.font h3{
+    font-family: "Sofia", sans-serif;
+    font-size: 14
+    px;
+}
+
+.font h6{
+    color:blueviolet;
+    font-weight: 900;
+}
+
+.font p{
+    color:rgb(238, 238, 223);
+    font-weight: 600;
+    text-align: center;
+    justify-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.skill p{
+    text-align: center;
+    align-items: center;
+    
+}
+
+.skill h1{
+    margin-top: 20px;
+    font-family: "Sofia", sans-serif;
+    font-size: 41px;
+    letter-spacing: 5px;
+}
+
+.EDUCATION h1{
+    margin-top: 20px;
+    font-family: "Sofia", sans-serif;
+    font-size: 41px;
+    letter-spacing: 5px;
+
+}
+
+
+.Experience h1{
+    margin-top: 20px;
+    font-family: "Sofia", sans-serif;
+    font-size: 41px;
+    letter-spacing: 5px;
+
+}
+
+
+.Ac h1{
+    margin-top: 20px;
+    font-family: "Sofia", sans-serif;
+    font-size: 41px;
+    letter-spacing: 5px;
+
+}
+
+
+.contact{
+    margin-top: 10px;
+
+}
+
+.contact h1{
+    margin-top: 20px;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-left: 10px;
+}
+
+.contact .row{
+    display: flex;
+    
+    width: 100%;
+    height: 400px;
+}
+
+
+.contact .left-sider{
+    width: 40%;
+    
+    
+    
+    margin-top: 10px;
+}
+
+.contact .right-sider{
+    width: 40%;
+    
+
+    margin-top: 10px;
+}
+
+
+
+ .conatct-input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+    margin-top: 10px;
+
+
+ }
+
+ .contact textarea{
+    height: 140px;
+    border-radius: 20px;
+    padding-top: 15px;
+ } 
+
+ .conatct-input:focus{
+    border: 2px solid #ff994f;
+ }
+
+ .conatct-input ::placeholder{
+    color: #a9a9a9;
+ }
+
+ .left-sider button{
+    display:  flex;
+    align-items: center;
+    padding: 16px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+ }
+
+ .left-sider button img{
+    height: 15px;
+ }
+@media(max-width:800px){
+    .conatct-input{
+        width: 80vw;
+    }
+    .right-sider{
+        display: none;
+    }
+}
+
+
+.footer{
+    height: 100px;
+    width: 100%;
+    
+    align-items: center;
+    text-align: center;
+    
+    
+    display: flex;
+}
+
+
+.footer img{
+    margin-left: 20px;
+    height: 25px;
+    width: 25px;
+    
+
+}
+
+
+.address h1{
+
+    margin-top: 20px;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-left: 10px;
+
+}
+
+.address .row{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.address .row p{
+    color: white;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+
+@media (max-width: 768px) {
+    /* Adjust padding/margins or other styles as needed */
+    .navbar-nav {
+      margin-right: 0;
+    }
+    /* Example adjustments for smaller screens */
+  }
+  
+  @media (max-width: 576px) {
+    /* Further adjustments for even smaller screens */
+    .navbar-collapse {
+      padding: 0; /* Adjust as needed */
+    }
+  }
+  
